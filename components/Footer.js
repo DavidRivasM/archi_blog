@@ -1,20 +1,11 @@
-/* eslint-disable react/jsx-indent-props */
-/* eslint-disable jsx-a11y/anchor-has-content */
-/* eslint-disable indent */
-/* eslint-disable semi */
-/* eslint-disable react/jsx-indent */
-/* eslint-disable arrow-body-style */
 import React from 'react';
 import Image from 'next/image';
-
 
 const Footer = () => {
     return (
         <footer className="container grid place-items-center">
             <span className="cursor-pointer font-bold text-2xl text-white">Made by David Rivas. All Rights Reserved 2022.
             </span>
-
-
             <ul className="flex m-8 items-center text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
                 <a className="m-4" href="mailto:alonsorivasmora@gmail.com" target="_blank" rel="noreferrer noopener">
                     <Image
@@ -37,16 +28,6 @@ const Footer = () => {
                         src="git.gif"
                     />
                 </a>
-                <a className="m-4" href="https://wa.me/50685255893" target="_blank" rel="noreferrer noopener">
-                    <Image
-                        unoptimized
-                        alt=""
-                        height="30px"
-                        width="30px"
-                        className="align-middle rounded-full transform transition duration-500 hover:scale-110"
-                        src="what.gif"
-                    />
-                </a>
                 <a className="m-4" href="https://personal-portfolio-xi-taupe.vercel.app/" target="_blank" rel="noreferrer noopener">
                     <Image
                         unoptimized
@@ -59,7 +40,6 @@ const Footer = () => {
                 </a>
             </ul>
         </footer>
-
     )
 }
 
